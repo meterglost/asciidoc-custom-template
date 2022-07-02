@@ -1,0 +1,59 @@
+include::setup.adoc[]
+
+= Báo cáo .............................. môn ..............................
+:author: Ha Vinh Nguyen
+:email: example@email.com
+:revremark: Class: ... - Student ID: ...
+
+== AsciiDoc syntax
+https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+== Các thay đổi
+
+* CSS file
+
+** Cập nhật API mới của Google Font
+
+** Import thêm font Roboto từ Google Font
+
+** Import thêm font JetBrain Mono từ Google Font
+
+** Sửa body
+
+*** Thay font thành Roboto
+
+** Sửa Code Block
+
+*** Thay font thành JetBrain Mono
+
+*** Thêm màu background
+
+** Sửa Author Information
+
+*** Sửa kí tự gạch ngang
+
+** Sửa Admonition Block
+
+*** Sửa border
+
+*** Sửa icon
+
+**** Bỏ shadow
+
+**** Đặt font-weight mặc định là 400
+
+** Sửa các thay đổi khi in ra pdf
+
+*** Giữ nguyên text-shadow, box-shadow
+
+*** Giữ nguyên link
+
+*** Giữ nguyên TOC
+
+*** Giữ nguyên đường phân chia giữa các section
+
+** Cập nhật các css property đã bị thay thế bằng property khác
+
+* AsciiDoc
+
+** Xem file _customTheme.adoc_

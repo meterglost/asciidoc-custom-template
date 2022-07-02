@@ -1,0 +1,38 @@
+:imagesdir: images
+
+// Use my custom asciidoctor stylesheet
+:stylesdir: css
+:stylesheet: asciidoctorCustom.css
+:linkcss:
+
+// Colorize code in code block
+:source-highlighter: highlight.min.js
+// Use cdn
+// :highlightjsdir: https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.5.1
+// Use local
+:highlightjsdir: js
+
+// Customize the icon in admonition block
+:icons: font
+:iconfont-name: pro.min
+// Use cdn
+// :iconfont-cdn: https://kit-pro.fontawesome.com/releases/v6.1.1/css/pro.min.css
+// Use local
+:!iconfont-remote:
+
+// Display math expression as in latex
+:stem: latexmath
+
+// Display keyboard shortcuts as button
+:experimental:
+
+// Display the table of contents
+:toc:
+:toclevels: 3
+:toc-title: Mục lục
+
+// Display section number
+:sectnums:
+
+// Hide "Last updated" information
+:nofooter:

@@ -1,0 +1,109 @@
+include::setup.adoc[]
+
+:toc: macro
+
+[cols="^.^a", grid=none, frame=none, options="noheader"]
+|===
+
+| [discrete]
+=== Trường Đại học Bách Khoa - Đại học Quốc gia Thành phố Hồ Chí Minh
+
+| [discrete]
+==== Khoa Khoa học và Kĩ thuật máy tính
+
+4*|
+
+| image::LogoBK.png[width=150px,height=150px]
+
+3*|
+
+| [discrete]
+=== Báo cáo .............................. môn ..............................
+
+2*|
+
+|===
+
+---
+
+Đề tài::
+
+...
+
+Người hướng dẫn::
+
+- ...
+- ...
+
+Người thực hiện::
+
+|===
+| Tên | MSSV | Nhiệm vụ | Tỉ lệ hoàn thành
+
+| ... | ... | ... | ...
+
+| ... | ... | ... | ...
+
+| ... | ... | ... | ...
+
+| ... | ... | ... | ...
+
+|===
+
+---
+
+[.unbreakable]
+toc::[]
+
+== AsciiDoc syntax
+https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+== Các thay đổi
+
+* CSS file
+
+** Cập nhật API mới của Google Font
+
+** Import thêm font Roboto từ Google Font
+
+** Import thêm font JetBrain Mono từ Google Font
+
+** Sửa body
+
+*** Thay font thành Roboto
+
+** Sửa Code Block
+
+*** Thay font thành JetBrain Mono
+
+*** Thêm màu background
+
+** Sửa Author Information
+
+*** Sửa kí tự gạch ngang
+
+** Sửa Admonition Block
+
+*** Sửa border
+
+*** Sửa icon
+
+**** Bỏ shadow
+
+**** Đặt font-weight mặc định là 400
+
+** Sửa các thay đổi khi in ra pdf
+
+*** Giữ nguyên text-shadow, box-shadow
+
+*** Giữ nguyên link
+
+*** Giữ nguyên TOC
+
+*** Giữ nguyên đường phân chia giữa các section
+
+** Cập nhật các css property đã bị thay thế bằng property khác
+
+* AsciiDoc
+
+** Xem file _customTheme.adoc_
